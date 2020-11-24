@@ -1,0 +1,8 @@
+.i 2
+.o 2
+.ob weirdfunc secondone
+00 01
+01 10
+10 01
+11 11
+.e
