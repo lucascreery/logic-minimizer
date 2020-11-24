@@ -117,7 +117,6 @@ bool logic_function::isZero()  {
 }
 
 void logic_function::getPrimes(){
-  cout << "Getting primes...\n";
   vector<term> *truth_val_set;
   int *max_matches = new int[terms.size()];
   vector<term> lastterms;
@@ -238,17 +237,17 @@ ostream& operator<<(ostream &os, const logic_function &a){
           }else{
             switch(a.primes[a.reduced_primes[term]].bits[element]){
               case t:
-              os << " " << a.input_names[element] << " ";
+              os << "(" << a.input_names[element] << ")";
               break;
               case f:
-              os << " " << a.input_names[element] << "' ";
+              os << "(" << a.input_names[element] << ")'";
               break;
             }
           }
         }
       }
     }
-    os << '\n';
+    os << "\n\n";
   }
   return os;
 }
