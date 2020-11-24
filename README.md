@@ -1,5 +1,4 @@
 # logic-minimizer
-##Description
 C++ logic minimizer that uses the Quine-McCluskey algorightm and Petricks method for minimization. The purpose of this program was to gain experience with logic minimization techniques and concepts in hope of understanding other minimization algorithms such as the Espresso heuristic algorithm.
 
 ## Build
